@@ -10,21 +10,35 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 ### Hedeflerimiz:
 
 ### Company needs your help
-* Şirketimize eleman alımı yapılırken muhasebemizde bazı kullanıcıların aynı id ile kayıt edildiklerini gorduk. Bu durumu düzeltmek için senin yardımın gerekli.
-* org.example.entity paketi altında```Employee``` isimli bir sınıf tanımlamalısın. İçerisinde id, firstname ve lastname değerleri olmalı. 
+* Şirketimize eleman alımı yapılırken muhasebemizde     
+* 
+  *       **bazı kullanıcıların aynı id ile kayıt edildiklerini gorduk.**       
+* 
+* Bu durumu düzeltmek için senin yardımın gerekli.
+* 
+* org.example.entity paketi altında```Employee``` isimli bir sınıf tanımlamalısın. 
+* 
+* İçerisinde id, firstname ve lastname değerleri olmalı. 
+* 
 * Tüm ```sınıf değişkenleri``` private olarak tanımlanmalı.
 * Employee sınıfının tek bir constructor değeri olmalı ve bu 3 parametreyi de alıp set edebilmeli.
 * org.example paketi altında bulunan Main sınıfı içerisinde bir adet  ```LinkedList``` tanımlayın. İçerisine istediğiniz kadar employee ekleyiniz. Tekrar eden employee lerde ekleyiniz.
+
+
 * Main sınıfı içerisinde ```findDuplicates``` isimli bir method tanımla. Input olarak bir adet List almalı.
 * Senden isteğimiz findDuplicates methodu içerisinde tekrar eden employeeleri başka bir listeye eklemen ve bu listeyi return etmen.
 * Main sınıfı içerisinde Bir method daha yazmalısın ```findUniques``` Input olarak bir adet List almalı.
+
 * ```findUniques``` LinkedList içerisinde geçen tekrar eden elemanlardan sadece bir tanesini ve tekrar etmeyen eleman varsa bu elemanları bulup bir mape eklemeli.
+* 
 * Main sınıfı içerisinde ```removeDuplicates``` adında bir method daha yazmalısın. Input olarak bir adet List almalı. ```LinkedList``` list içerisinde bir data birden fazla kez geçiyorsa hepsini silmeli. Sadece tek geçen kayıtları bir listeye eklemeli ve bu listeyi dönmeli.
 * Bir adet LinkedList ve HashMap kullanman çözümde zorunludur. Kalan tüm kısımları istediğiniz gibi yapabilirsiniz.
 
 ### Find Count of All Words
 * org.example paketi altında WordCounter adında bir sınıf tanımlayınız.
+* 
 * Bu projedeki amacımız aşağıdaki şekilde verilmiş olan text içerisinde her kelimenin kaç kez geçtiğini bulmak.
+* 
 * Çözümünüzün ```time Complexity``` değeri O(n) komplesitiden daha fazla olmamalı.
 * "When the offensive resumed, the Turks received their first victory when the Greeks encountered stiff resistance in the battles of First and Second İnönü," +
   " due to İsmet Pasha's organization of an irregular militia into a regular army. " +
